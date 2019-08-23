@@ -1,6 +1,6 @@
-# selection 高亮选择器
+# selection 高亮选择
 
-使用selection选择器自定义文本选区的高亮样式
+!>  使用 `:selection` 选择器自定义文本选区的高亮样式
 
 <vuep template="#example"></vuep>
 
