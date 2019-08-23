@@ -2,5 +2,9 @@
   * [使用前必读](/README.md)
   
 * **视觉效果**
-  * [高亮选择](/csspage/selection_01.md)
-  * [立体按钮](/csspage/button_01.md)
+  * [高亮选择](/csspage/selectionHighlight.md)
+  * [立体按钮](/csspage/buttonShadow.md)
+
+* **常用技巧**
+  * [文本溢出隐藏](/csspage/textHien.md)
+  * [图片防抖](/csspage/imgAntiShake.md)

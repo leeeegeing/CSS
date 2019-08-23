@@ -95,3 +95,18 @@ body {
     -webkit-transform: scaleY(1.0);
   }
 }
+
+/*组件*/
+.button {
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #42b983;
+  box-shadow: 0 0 1px 1px #48b685;
+}
+.button:active{
+  box-shadow: none;
+}
