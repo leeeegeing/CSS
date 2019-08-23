@@ -1,0 +1,20 @@
+
+body{
+  overflow: auto !important;
+}
+
+/* vuep */
+.vuep {
+  flex-direction: column;
+  height: initial;
+}
+
+.vuep-editor, .vuep-preview, .vuep-error{
+  width: 100%;
+  height: initial;
+}
+
+.vuep-preview, .vuep-error{
+  padding: 20px;
+}
+
