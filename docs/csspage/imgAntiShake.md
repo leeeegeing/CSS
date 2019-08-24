@@ -29,7 +29,9 @@
         </div>
       </div>
     </div>
-    <div class="button-wrapper"><button class="button" @click="handleImg">重置图片</button></div>
+    <div class="button-wrapper">
+      <button class="button" @click="handleImg">重置图片</button>
+    </div>
   </div>
 </template>
 

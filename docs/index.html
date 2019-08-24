@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="//unpkg.com/vuep/dist/vuep.css" />
     <!-- 自定义样式 -->
     <link rel="stylesheet" href="./config/css/index.css" />
+    <!-- 评论 -->
+    <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
   </head>
   <body>
     <div id="app">
@@ -28,32 +30,7 @@
           </div>
         </div>
     </div>
-    <script>
-      // 离线模式
-      if (typeof navigator.serviceWorker !== 'undefined') {
-        navigator.serviceWorker.register('sw.js')
-      }
-      // 整体配置
-      window.$docsify = {
-        name: "",
-        repo: "",
-        // 自定义侧边导航栏
-        loadSidebar: true,
-        // 嵌套目录
-        alias: {
-          '/.*/_sidebar.md': '/_sidebar.md',
-          vue$: "vue/dist/vue.common"
-        },
-        subMaxLevel: 2,
-        // 设置封面
-        coverpage: true,
-        search: {
-          placeholder: '全文检索',
-          noData: '暂时没有相关的数据呢🙁',
-          namespace: 'website-1'
-        }
-      };
-    </script>
+    
     <!-- 核心 JS -->
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     <!-- 复制代码 -->
@@ -70,5 +47,47 @@
     <script src="//unpkg.com/vuep/dist/vuep.min.js"></script>、
     <!-- 搜索相关 -->
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <!-- 分页 -->
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <!-- 评论 -->
+    <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+    <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+    <script>
+        // 离线模式
+        if (typeof navigator.serviceWorker !== 'undefined') {
+          navigator.serviceWorker.register('sw.js')
+        }
+        // 整体配置
+        window.$docsify = {
+          name: "",
+          repo: "",
+          // 自定义侧边导航栏
+          loadSidebar: true,
+          // 嵌套目录
+          alias: {
+            '/.*/_sidebar.md': '/_sidebar.md',
+            vue$: "vue/dist/vue.common"
+          },
+          subMaxLevel: 2,
+          // 设置封面
+          coverpage: true,
+          search: {
+            placeholder: '全文检索',
+            noData: '暂时没有相关的数据呢🙁'
+          }
+        };
+
+        // 评论
+        const gitalk = new Gitalk({
+          clientID: '4725bbf3e4a6e4b90482',
+          clientSecret: '051ea74dd3f4f9eaf170ea091d80a32b0623f157',
+          repo: 'LeegeingTalk',
+          owner: 'mraing',
+          admin: ['mraing'],
+          // facebook-like distraction free mode
+          distractionFreeMode: false
+        })
+      </script>
   </body>
 </html>
