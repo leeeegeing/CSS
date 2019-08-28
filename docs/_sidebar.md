@@ -9,3 +9,4 @@
 * **常用技巧**
   * [文本溢出隐藏](/csspage/textHien.md)
   * [图片防抖](/csspage/imgAntiShake.md)
+  * [文本两端对齐](/csspage/textAlignLast.md)
