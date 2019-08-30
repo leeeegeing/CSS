@@ -6,7 +6,7 @@
   * [立体按钮](/csspage/buttonShadow.md)
   * [边框内圆角](/csspage/borderRadius.md)
   * [1px 边框](/csspage/oneBorder.md)
-
+  * [彩色阴影](/csspage/colourShadow.md)
 * **常用技巧**
   * [文本溢出隐藏](/csspage/textHien.md)
   * [图片防抖](/csspage/imgAntiShake.md)
