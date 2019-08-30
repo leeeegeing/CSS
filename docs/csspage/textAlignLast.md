@@ -7,7 +7,7 @@
 <script v-pre type="text/x-template" id="textAlignLast">
 
 <template>
-<div class="bruce flex-ct-x">
+<div>
   <ul class="justify-text">
     <li class="justify-text-item">账号</li>
     <li class="justify-text-item">密码</li>
