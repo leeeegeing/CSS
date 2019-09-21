@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "doc": "docsify serve docs --port 4000"
+    "doc": "docsify serve docs --port 3002"
   },
   "repository": {
     "type": "git",
