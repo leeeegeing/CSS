@@ -25,7 +25,7 @@
       <div class="wrapper-item">
         <div>图片防抖</div>
         <div class="img-shake">
-          <img v-bind:src="imgUrl"/>
+          <img :src="imgUrl"/>
         </div>
       </div>
     </div>
