@@ -9,6 +9,7 @@
   * [彩色阴影](/csspage/colourShadow.md)
   * [悬停边框变色](/csspage/hoverBorder.md)
 * **常用技巧**
+  * [居中方式](/csspage/center.md)
   * [文本溢出隐藏](/csspage/textHien.md)
   * [图片防抖](/csspage/imgAntiShake.md)
   * [文本两端对齐](/csspage/textAlignLast.md)
